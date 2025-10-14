@@ -55,7 +55,7 @@ const App: React.FC = () => {
         </section>
 
         <section className="sensor-grid">
-          {[...Array(6)].map((_, i) => (
+          {[...Array(9)].map((_, i) => (
             <div className="sensor-card" key={i}>
               <h4>Sensor {i + 1} :</h4>
             </div>
